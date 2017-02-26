@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_3545">
+        <Placemark id="feat_3546">
+            <name>Daily World</name>
+            <description>newspaper</description>
+            <Point id="geom_3542">
+                <coordinates>-123.81923,46.972965,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3547">
+            <name>Arlington Times</name>
+            <description>newspaper</description>
+            <Point id="geom_3543">
+                <coordinates>-122.05288,48.203856,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3548">
+            <name>Bainbridge Islander</name>
+            <description>newspaper</description>
+            <Point id="geom_3544">
+                <coordinates>-122.53508,47.65526,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3549">
+            <name>Island Review</name>
+            <description>newspaper</description>
+            <Point id="geom_3545">
+                <coordinates>-122.53508,47.65526,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3550">
+            <name>Ballard News-Tribune</name>
+            <description>newspaper</description>
+            <Point id="geom_3546">
+                <coordinates>-122.386,47.6792,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3551">
+            <name>Reflector</name>
+            <description>newspaper</description>
+            <Point id="geom_3547">
+                <coordinates>-122.51789,45.791345,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3552">
+            <name>Bellevue Business Journal</name>
+            <description>newspaper</description>
+            <Point id="geom_3548">
+                <coordinates>-122.20308,47.618371,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3553">
+            <name>Bellingham Business News</name>
+            <description>newspaper</description>
+            <Point id="geom_3549">
+                <coordinates>-122.48508,48.747578,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3554">
+            <name>Bellingham Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3550">
+                <coordinates>-122.48508,48.747578,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3555">
+            <name>Northern Light</name>
+            <description>newspaper</description>
+            <Point id="geom_3551">
+                <coordinates>-122.73714,48.961443,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3556">
+            <name>Courier Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3552">
+                <coordinates>-122.1865,47.177,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3557">
+            <name>Sun</name>
+            <description>newspaper</description>
+            <Point id="geom_3553">
+                <coordinates>-122.62371,47.58675,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3558">
+            <name>Camas-Washougal Post-Record</name>
+            <description>newspaper</description>
+            <Point id="geom_3554">
+                <coordinates>-122.40547,45.60916,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3559">
+            <name>Valley Record</name>
+            <description>newspaper</description>
+            <Point id="geom_3555">
+                <coordinates>-120.48966,47.522546,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3560">
+            <name>Chronicle</name>
+            <description>newspaper</description>
+            <Point id="geom_3556">
+                <coordinates>-122.95142,46.728383,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3561">
+            <name>Lake Chelan Mirror</name>
+            <description>newspaper</description>
+            <Point id="geom_3557">
+                <coordinates>-120.08379,47.880774,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3562">
+            <name>Cheney Free Press</name>
+            <description>newspaper</description>
+            <Point id="geom_3558">
+                <coordinates>-117.60575,47.466974,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3563">
+            <name>Northern Kittitas County Tribune</name>
+            <description>newspaper</description>
+            <Point id="geom_3559">
+                <coordinates>-120.91733,47.19377,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3564">
+            <name>Statesman-Examiner</name>
+            <description>newspaper</description>
+            <Point id="geom_3560">
+                <coordinates>-117.7671,48.658512,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3565">
+            <name>Concrete Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3561">
+                <coordinates>-121.70018,48.497601,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3566">
+            <name>Whidbey Examiner</name>
+            <description>newspaper</description>
+            <Point id="geom_3562">
+                <coordinates>-122.66723,48.204162,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3567">
+            <name>Deer Park Tribune</name>
+            <description>newspaper</description>
+            <Point id="geom_3563">
+                <coordinates>-117.48145,47.966471,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3568">
+            <name>Islands' Sounder</name>
+            <description>newspaper</description>
+            <Point id="geom_3564">
+                <coordinates>-122.91972,48.672312,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3569">
+            <name>Dispatch</name>
+            <description>newspaper</description>
+            <Point id="geom_3565">
+                <coordinates>-122.29237,46.884733,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3570">
+            <name>Edmonds Beacon</name>
+            <description>newspaper</description>
+            <Point id="geom_3566">
+                <coordinates>-122.37096,47.803668,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3571">
+            <name>Daily Record</name>
+            <description>newspaper</description>
+            <Point id="geom_3567">
+                <coordinates>-120.52364,47.009726,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3572">
+            <name>Courier-Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3568">
+                <coordinates>-121.91915,47.193729,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3573">
+            <name>Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3569">
+                <coordinates>-122.20222,47.986274,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3574">
+            <name>Federal Way Mirror</name>
+            <description>newspaper</description>
+            <Point id="geom_3570">
+                <coordinates>-122.31188,47.311072,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3575">
+            <name>Forks Forum</name>
+            <description>newspaper</description>
+            <Point id="geom_3571">
+                <coordinates>-124.35888,47.838423,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3576">
+            <name>Journal San Juan</name>
+            <description>newspaper</description>
+            <Point id="geom_3572">
+                <coordinates>-123.07563,48.55113,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3577">
+            <name>San Juan Islander</name>
+            <description>newspaper</description>
+            <Point id="geom_3573">
+                <coordinates>-123.07563,48.55113,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3578">
+            <name>Peninsula Gateway</name>
+            <description>newspaper</description>
+            <Point id="geom_3574">
+                <coordinates>-122.7222,47.378121,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3579">
+            <name>Grandview Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3575">
+                <coordinates>-119.90614,46.260129,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3580">
+            <name>Issaquah Press</name>
+            <description>newspaper</description>
+            <Point id="geom_3576">
+                <coordinates>-122.02921,47.522828,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3581">
+            <name>Tri-City Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3577">
+                <coordinates>-119.16369,46.210957,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3582">
+            <name>South Whidbey Record</name>
+            <description>newspaper</description>
+            <Point id="geom_3578">
+                <coordinates>-122.44856,48.030555,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3583">
+            <name>Leavenworth Echo</name>
+            <description>newspaper</description>
+            <Point id="geom_3579">
+                <coordinates>-120.73874,47.728186,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3584">
+            <name>Liberty Lake Splash</name>
+            <description>newspaper</description>
+            <Point id="geom_3580">
+                <coordinates>-117.08628,47.656171,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3585">
+            <name>Chinook Observer</name>
+            <description>newspaper</description>
+            <Point id="geom_3581">
+                <coordinates>-124.05022,46.365773,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3586">
+            <name>Daily News</name>
+            <description>newspaper</description>
+            <Point id="geom_3582">
+                <coordinates>-122.98043,46.156082,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3587">
+            <name>Lynden Tribune</name>
+            <description>newspaper</description>
+            <Point id="geom_3583">
+                <coordinates>-122.45723,48.943476,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3588">
+            <name>Marysville Globe</name>
+            <description>newspaper</description>
+            <Point id="geom_3584">
+                <coordinates>-122.1588,48.061269,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3589">
+            <name>Mercer Island Reporter</name>
+            <description>newspaper</description>
+            <Point id="geom_3585">
+                <coordinates>-122.23233,47.569271,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3590">
+            <name>Monroe Monitor</name>
+            <description>newspaper</description>
+            <Point id="geom_3586">
+                <coordinates>-121.93734,47.860245,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3591">
+            <name>Sky Valley Chronicle</name>
+            <description>newspaper</description>
+            <Point id="geom_3587">
+                <coordinates>-121.93734,47.860245,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3592">
+            <name>Vidette</name>
+            <description>newspaper</description>
+            <Point id="geom_3588">
+                <coordinates>-123.60332,47.034615,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3593">
+            <name>Columbia Basin Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3589">
+                <coordinates>-119.28455,47.133606,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3594">
+            <name>Skagit Valley Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3590">
+                <coordinates>-122.35196,48.414576,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3595">
+            <name>Mukilteo Beacon</name>
+            <description>newspaper</description>
+            <Point id="geom_3591">
+                <coordinates>-122.30293,47.916148,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3596">
+            <name>Newport Miner</name>
+            <description>newspaper</description>
+            <Point id="geom_3592">
+                <coordinates>-117.16984,48.159752,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3597">
+            <name>Whidbey News-Times</name>
+            <description>newspaper</description>
+            <Point id="geom_3593">
+                <coordinates>-122.65093,48.303774,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3598">
+            <name>Olympian</name>
+            <description>newspaper</description>
+            <Point id="geom_3594">
+                <coordinates>-122.8819,47.014718,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3599">
+            <name>County Chronicle</name>
+            <description>newspaper</description>
+            <Point id="geom_3595">
+                <coordinates>-119.39066,48.403174,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3600">
+            <name>Okanogan Valley Gazette-Tribune</name>
+            <description>newspaper</description>
+            <Point id="geom_3596">
+                <coordinates>-119.38169,48.9332,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3601">
+            <name>Othello Outlook</name>
+            <description>newspaper</description>
+            <Point id="geom_3597">
+                <coordinates>-119.17443,46.843397,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3602">
+            <name>Peninsula Daily News</name>
+            <description>newspaper</description>
+            <Point id="geom_3598">
+                <coordinates>-123.40628,48.097144,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3603">
+            <name>Port Orchard Independent</name>
+            <description>newspaper</description>
+            <Point id="geom_3599">
+                <coordinates>-122.59905,47.53587,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3604">
+            <name>Jefferson County Leader</name>
+            <description>newspaper</description>
+            <Point id="geom_3600">
+                <coordinates>-122.79736,48.100255,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3605">
+            <name>North Kitsap Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3601">
+                <coordinates>-122.63041,47.743302,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3606">
+            <name>Prosser Record-Bulletin</name>
+            <description>newspaper</description>
+            <Point id="geom_3602">
+                <coordinates>-119.74507,46.208571,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3607">
+            <name>Daily News</name>
+            <description>newspaper</description>
+            <Point id="geom_3603">
+                <coordinates>-117.18648,46.732705,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3608">
+            <name>Puyallup Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3604">
+                <coordinates>-122.31577,47.196272,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3609">
+            <name>Willapa Harbor Herald</name>
+            <description>newspaper</description>
+            <Point id="geom_3605">
+                <coordinates>-123.67708,46.668744,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3610">
+            <name>Renton Reporter</name>
+            <description>newspaper</description>
+            <Point id="geom_3606">
+                <coordinates>-122.21005,47.467422,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3611">
+            <name>Capitol Hill Times</name>
+            <description>newspaper</description>
+            <Point id="geom_3607">
+                <coordinates>-121.803388,47.432251,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3612">
+            <name>Daily Journal of Commerce</name>
+            <description>newspaper</description>
+            <Point id="geom_3608">
+                <coordinates>-121.803388,47.432251,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3613">
+            <name>Madison Park Times</name>
+            <description>newspaper</description>
+            <Point id="geom_3609">
+                <coordinates>-121.803388,47.432251,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3614">
+            <name>Northwest Asian Weekly</name>
+            <description>newspaper</description>
+            <Point id="geom_3610">
+                <coordinates>-121.803388,47.432251,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3615">
+            <name>Pacific Publishing Newspapers</name>
+            <description>newspaper</description>
+            <Point id="geom_3611">
+                <coordinates>-121.803388,47.432251,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_3616">
+            <name>Puget Sound Business Journal</name>
+            <description>newspaper</description>
+            <Point id="geom_3612">
+                <coordinates>-121.803388,47.432251,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
