@@ -3,21 +3,17 @@ var map = L.map('map', {
     zoom: 100,
 });
 
-L.tileLayer.provider('Thunderforest.OpenCycleMap').addTo(map);
+var Thunderforest_OpenCycleMap = L.tileLayer('https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey={apikey}', {
+  attribution: '',
+  maxZoom: 22,
+  apikey: '525c75c271844aa0b88a3eb8ebb9d116'
+}).addTo(map);
 
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
-    maxZoom: 10
-    }).addTo(map);
+map.attributionControl.setPrefix('');
 
-map.attributionControl.setPrefix(''); // Don't show the 'Powered by Leaflet' text.
-
-
-var layer = omnivore.kml("newspaper.kml")
+var layer = omnivore.kml("data/newspaper0.kml")
   .on('ready', function(e) {
-    b = e.target.getBounds()
     map.fitBounds(e.target.getBounds());
-    debugger
   })
   .on('error', function() {
       console.log("bar")
@@ -27,42 +23,18 @@ var layer = omnivore.kml("newspaper.kml")
   .addTo(map);
 
 map.addControl(new L.Control.Layers({}, {'newspapers':layer}));
-//kmlLayer = new L.KML("public_libraries.kml", {async:true});
-//
-//kmlLayer.on("loaded", function(e) {
-//  console.log("loaded kml");
-//});
 
-//map.addLayer(kmlLayer);
-//map.addControl(new L.Control.Layers({}, {'publibs':kmlLayer}));
+map.locate({setView: true, maxZoom: 16});
 
+map.on('locationfound', function onLocationFound(e) {
+    var radius = e.accuracy / 2;
 
-//
-//$.get("newspapers.kml", {}, function(k) {
-//  console.log(k)
-//  var layer = omnivore.kml.parse(k+"").addTo(map);
-//  //.on('ready', function(e) {
-//  //    console.log("foo", e)
-//      // when this is fired, the layer
-//      // is done being initialized
-//  //    map.fitBounds(e.target.getBounds());
-//  //})
-//  //.on('error', function() {
-//  //    console.log("bar")
-//  //    // fired if the layer can't be loaded over AJAX
-//  //    // or can't be parsed
-//  //})
-//  //.addTo(map);
-//  map.addLayer(layer);
-//  map.addControl(new L.Control.Layers({}, {'publibs':layer}));
-//});
-//////kmlLayer = new L.KML("public_libraries.kml", {async:true});
-//////
-//////kmlLayer.on("loaded", function(e) {
-//////  console.log("loaded kml");
-//////});
-////
-//////map.addLayer(kmlLayer);
-//////map.addControl(new L.Control.Layers({}, {'publibs':kmlLayer}));
-////
-////
+    L.marker(e.latlng).addTo(map)
+        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    L.circle(e.latlng, radius).addTo(map);
+});
+
+map.on('locationerror', function onLocationError(e) {
+    alert(e.message);
+});
