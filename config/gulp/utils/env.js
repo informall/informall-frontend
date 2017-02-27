@@ -1,4 +1,4 @@
-re('yargs').argv;
+var argv = require('yargs').argv;
 
 var ENVS = {
     DEV: 'development',

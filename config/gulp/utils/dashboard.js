@@ -1,121 +1,31 @@
-var envConfig = require('./utils/env');
+var envVars = require('../utils/env-vars'),
+    envConfig = require('../utils/env'),
+    util = require('gulp-util'),
+    _ = require('lodash'),
+    envStatusMessage;
 
-module.exports = function () {
-    var root = '',
-        src = root + 'src/',
-        config = root + 'config/',
-        app = src + 'app/',
-        test = src + 'test/',
-        tmp = src + 'tmp/',
-        tmpApp = tmp + 'app/',
-        tmpTest = tmp + 'test/',
-        testHelper = test + 'test-helpers/',
-        e2e = root + 'e2e/',
-        assets = src + 'assets/',
-        assetsPath = {
-            styles: assets + 'styles/',
-            images: assets + 'images/',
-            fonts: assets + 'fonts/'
-        },
-        index = src + 'index.html',
-        tsFiles = [
-            app + '**/!(*.spec)+(.ts)'
-        ],
-        tsTestFiles = {
-            unit: [app + '**/*.spec.ts'],
-            e2e: [e2e + '**/*.ts'],
-            helper: [testHelper + '**/*.ts']
-        },
-        build = {
-            path: 'build/',
-            app: 'build/app/',
-            fonts: 'build/fonts',
-            assetPath: 'build/assets/',
-            assets: {
-                lib: {
-                    js: 'lib.js',
-                    css: 'lib.css'
-                }
-            }
-        },
-        report = {
-            path: 'report/'
-        };
-
-    var e2eConfig = {
-        seleniumTarget: 'http://127.0.0.1:3000'
-    };
-
-    var systemJs = {
-        builder: {
-            normalize: true,
-            minify: true,
-            mangle: true,
-            runtime: false,
-            globalDefs: {
-                DEBUG: false,
-                ENV: 'production'
-            }
-        }
-    };
-
-    var gulpConfig = {
-        root: root,
-        config: config,
-        src: src,
-        app: app,
-        test: test,
-        tmp: tmp,
-        tmpApp: tmpApp,
-        tmpTest: tmpTest,
-        testHelper: testHelper,
-        e2e: e2e,
-        e2eConfig: e2eConfig,
-        assets: assets,
-        index: index,
-        build: build,
-        report: report,
-        assetsPath: assetsPath,
-        tsFiles: tsFiles,
-        tsTestFiles: tsTestFiles,
-        systemJs: systemJs
-    };
-
-    if (envConfig.ENV === envConfig.ENVS.DEV)
-    {
-        var historyApiFallback = require('connect-history-api-fallback');
-        var browserSync = {
-            dev: {
-                port: 3000,
-                injectChanges: false,
-                server: {
-                    baseDir: './src/',
-                    middleware: [historyApiFallback()],
-                    routes: {
-                        "/node_modules": "node_modules",
-                        "/src": "src"
-                    }
-                },
-                files: [
-                    src + "index.html",
-                    src + "systemjs.conf.js",
-                    assetsPath.styles + "main.css",
-                    tmpApp + "**/*.js",
-                    app + "**/*.css",
-                    app + "**/*.html"
-                ]
-            },
-            prod: {
-                port: 3001,
-                server: {
-                    baseDir: './' + build.path,
-                    middleware: [historyApiFallback()]
-                }
-            }
-        };
-
-        gulpConfig.browserSync = browserSync;
-    }
-
-    return gulpConfig;
+var color;
+var colorMap = {
+    'development': 'bgGreen',
+    'production': 'bgCyan'
 };
+color = colorMap[envConfig.ENV] || 'bgMagenta';
+
+var StarterDashboard = {
+    show: function() {
+        if (envVars) {
+            envStatusMessage = '- env.json is detected. ' + _.toArray(envVars).length +
+                ' values loaded.';
+        } else {
+            envStatusMessage = '- env.json is not detected. You can create one on project root';
+        }
+
+        console.log('============ Angular 2 Starter ============');
+        console.log('Current environment: ' + util.colors[color](envConfig.ENV));
+        console.log('- Change environment via --env or NODE_ENV');
+        console.log(envStatusMessage);
+        console.log('===========================================');
+    }
+};
+
+module.exports = StarterDashboard;
