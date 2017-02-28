@@ -34,27 +34,6 @@ gulp.task('tsc-unit', ['clean-ts-test'], function () {
     return compileTs(tsUnitFiles);
 });
 
-/* Lint typescripts */
-gulp.task('tslint', function () {
-    return lintTs(tsFiles);
-});
-
-gulp.task('tslint-app', function () {
-    return lintTs(config.tsFiles);
-});
-
-gulp.task('tslint-unit', function () {
-    return lintTs(tsUnitFiles);
-});
-
-function lintTs(files) {
-    return gulp.src(files)
-        .pipe(tslint({
-            formatter: 'verbose'
-        }))
-        .pipe(tslint.report());
-}
-
 function compileTs(files, watchMode) {
     var inline = !argv.excludeSource;
     watchMode = watchMode || false;
@@ -65,10 +44,6 @@ function compileTs(files, watchMode) {
             base: config.src,
             outDir: config.tmp
         })
-        .pipe(tslint({
-            formatter: 'verbose'
-        }))
-        .pipe(tslint.report())
         .pipe(sourcemaps.init())
         .pipe(tsProject())
         .on('error', function () {

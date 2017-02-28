@@ -10,7 +10,6 @@ module.exports = function () {
         tmpApp = tmp + 'app/',
         tmpTest = tmp + 'test/',
         testHelper = test + 'test-helpers/',
-        e2e = root + 'e2e/',
         assets = src + 'assets/',
         assetsPath = {
             styles: assets + 'styles/',
@@ -23,7 +22,6 @@ module.exports = function () {
         ],
         tsTestFiles = {
             unit: [app + '**/*.spec.ts'],
-            e2e: [e2e + '**/*.ts'],
             helper: [testHelper + '**/*.ts']
         },
         build = {
@@ -41,10 +39,6 @@ module.exports = function () {
         report = {
             path: 'report/'
         };
-
-    var e2eConfig = {
-        seleniumTarget: 'http://127.0.0.1:3000'
-    };
 
     var systemJs = {
         builder: {
@@ -69,8 +63,6 @@ module.exports = function () {
         tmpApp: tmpApp,
         tmpTest: tmpTest,
         testHelper: testHelper,
-        e2e: e2e,
-        e2eConfig: e2eConfig,
         assets: assets,
         index: index,
         build: build,

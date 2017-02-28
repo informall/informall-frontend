@@ -23,16 +23,16 @@ gulp.task('build', function (done) {
 gulp.task('build-assets', function (done) {
     runSequence('clean-build', ['sass', 'fonts'], function () {
         gulp.src(config.app + '**/*.html')
-        .pipe(flatten())
-        .pipe(gulp.dest(config.build.path));
+            .pipe(flatten())
+            .pipe(gulp.dest(config.build.path));
 
         gulp.src(config.app + '**/*.css')
-        .pipe(cssnano({zindex: false}))
-        .pipe(flatten())
-        .pipe(gulp.dest(config.build.path));
+            .pipe(cssnano({zindex: false}))
+            .pipe(flatten())
+            .pipe(gulp.dest(config.build.path));
 
         gulp.src(config.src + 'favicon.ico')
-        .pipe(gulp.dest(config.build.path));
+            .pipe(gulp.dest(config.build.path));
 
         gulp.src(config.assetsPath.images + '**/*.*', {
             base: config.assetsPath.images
