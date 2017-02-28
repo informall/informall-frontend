@@ -1,3 +1,6 @@
+var L: any;
+var omnivore: any;
+
 var map = L.map('map', {
     center: [39.73, -104.99],
     zoom: 100,
